@@ -2,8 +2,10 @@
   <img alt="Vue logo" src="./assets/logo.png" />
   <HelloWorld msg="Hello Vue 3 + TypeScript + Vite" />
   <div>
-    <router-link to="/">Go to Index</router-link>
-    <router-link to="/test">Go to Test</router-link>
+    <div><router-link to="/">Go to /</router-link></div>
+    <div><router-link to="/test">Go to /test</router-link></div>
+    <div><router-link to="/nest">Go to /nest</router-link></div>
+    <div><router-link to="/nest/test">Go to /nest/test</router-link></div>
   </div>
   <router-view></router-view>
 </template>

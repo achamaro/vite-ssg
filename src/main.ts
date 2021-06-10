@@ -4,6 +4,8 @@ import { ViteSSG } from "vite-ssg";
 import routes from "virtual:generated-pages";
 import App from "./App.vue";
 
+console.log(routes);
+
 // const router = createRouter({
 //   history: createWebHistory(),
 //   routes,
