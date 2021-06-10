@@ -1,0 +1,11 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "stylelint.vscode-stylelint",
+    "esbenp.prettier-vscode",
+    "streetsidesoftware.code-spell-checker",
+    "mhmadhamster.postcss-language",
+    "bradlc.vscode-tailwindcss",
+    "johnsoncodehk.volar"
+  ]
+}
