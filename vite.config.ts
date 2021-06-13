@@ -14,7 +14,7 @@ export default defineConfig({
         // {route.path}/index.htmlが出力されるように設定
         return {
           ...route,
-          path: route.path + "/",
+          path: route.path + ".html",
         };
       },
     }),

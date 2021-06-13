@@ -1,0 +1,10 @@
+@import "utilities/shadow.css";
+@import "tailwind.css";
+
+.routes {
+  & > div {
+    @apply text-red-500;
+    @apply first:text-green-500;
+    @apply hover:text-blue-500;
+  }
+}
