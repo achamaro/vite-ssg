@@ -6,8 +6,6 @@ import App from "./App.vue";
 
 import "./assets/styles/index.css";
 
-console.log(routes);
-
 // const router = createRouter({
 //   history: createWebHistory(),
 //   routes,

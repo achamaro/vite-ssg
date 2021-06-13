@@ -4,8 +4,12 @@
   <div class="routes">
     <div><router-link to="/">Go to /</router-link></div>
     <div><router-link to="/test.html">Go to /test</router-link></div>
-    <div><router-link to="/nest.html">Go to /nest</router-link></div>
+    <div><router-link to="/nest/">Go to /nest</router-link></div>
     <div><router-link to="/nest/test.html">Go to /nest/test</router-link></div>
+    <div><router-link to="/nest2/">Go to /nest2</router-link></div>
+    <div>
+      <router-link to="/nest2/test.html">Go to /nest2/test</router-link>
+    </div>
   </div>
   <router-view></router-view>
 </template>

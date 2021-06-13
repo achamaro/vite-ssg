@@ -8,8 +8,15 @@ export default defineConfig({
     vue(),
     Pages({
       extendRoute(route) {
+        console.log(route);
         if (!route.path || route.path === "/") {
           return route;
+        }
+        if (route.children || route.component.endsWith("index.vue")) {
+          return {
+            ...route,
+            path: route.path + "/",
+          };
         }
         // {route.path}/index.htmlが出力されるように設定
         return {
