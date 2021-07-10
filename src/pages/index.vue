@@ -41,7 +41,6 @@ export default defineComponent({
   },
   async serverPrefetch() {
     this.list = await this.load();
-    console.log(this.list);
   },
 });
 </script>

@@ -8,7 +8,6 @@ export default defineConfig({
     vue(),
     Pages({
       extendRoute(route) {
-        console.log(route);
         if (!route.path || route.path === "/") {
           return route;
         }
